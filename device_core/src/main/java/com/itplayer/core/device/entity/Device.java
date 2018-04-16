@@ -10,17 +10,26 @@ import javax.persistence.Table;
 @Table(name = "tbl_device")
 public class Device extends MetaEntity {
     /**
-     * 设备名称
+     * 机房id
+     */
+    private Long engineRoomId;
+    /**
+     * 本端设备名称
      */
     private String deviceName;
     /**
-     * 设备型号
+     * 本端设备型号
      */
     private String deviceModel;
     /**
-     * 设备机架号
+     * 本端所在机架
      */
     private String deviceFrame;
+
+    /**
+     * SN码， ipran独有
+     */
+    private String snCode;
 
     private DeviceType deviceType;
 
@@ -54,5 +63,21 @@ public class Device extends MetaEntity {
 
     public void setDeviceType(DeviceType deviceType) {
         this.deviceType = deviceType;
+    }
+
+    public String getSnCode() {
+        return snCode;
+    }
+
+    public void setSnCode(String snCode) {
+        this.snCode = snCode;
+    }
+
+    public Long getEngineRoomId() {
+        return engineRoomId;
+    }
+
+    public void setEngineRoomId(Long engineRoomId) {
+        this.engineRoomId = engineRoomId;
     }
 }
