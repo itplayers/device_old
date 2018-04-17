@@ -7,6 +7,8 @@ import com.itplayer.core.base.entity.MetaEntity;
  * 无线设备，打电话用的
  */
 public class BbuDeviceInfo extends MetaEntity {
+
+    private Long deviceId;
     /**
      * 序列号
      */
@@ -44,4 +46,84 @@ public class BbuDeviceInfo extends MetaEntity {
     private String serviceName;
 
     private String desc;
+
+    public Long getDeviceId() {
+        return deviceId;
+    }
+
+    public void setDeviceId(Long deviceId) {
+        this.deviceId = deviceId;
+    }
+
+    public String getSerialNo() {
+        return serialNo;
+    }
+
+    public void setSerialNo(String serialNo) {
+        this.serialNo = serialNo;
+    }
+
+    public String getFiberFrameAddr() {
+        return fiberFrameAddr;
+    }
+
+    public void setFiberFrameAddr(String fiberFrameAddr) {
+        this.fiberFrameAddr = fiberFrameAddr;
+    }
+
+    public String getFiberFramePort() {
+        return fiberFramePort;
+    }
+
+    public void setFiberFramePort(String fiberFramePort) {
+        this.fiberFramePort = fiberFramePort;
+    }
+
+    public String getTargetDevice() {
+        return targetDevice;
+    }
+
+    public void setTargetDevice(String targetDevice) {
+        this.targetDevice = targetDevice;
+    }
+
+    public String getTargetDeviceModel() {
+        return targetDeviceModel;
+    }
+
+    public void setTargetDeviceModel(String targetDeviceModel) {
+        this.targetDeviceModel = targetDeviceModel;
+    }
+
+    public String getTargetFiberFrame() {
+        return targetFiberFrame;
+    }
+
+    public void setTargetFiberFrame(String targetFiberFrame) {
+        this.targetFiberFrame = targetFiberFrame;
+    }
+
+    public String getPhysicalPort() {
+        return physicalPort;
+    }
+
+    public void setPhysicalPort(String physicalPort) {
+        this.physicalPort = physicalPort;
+    }
+
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
 }

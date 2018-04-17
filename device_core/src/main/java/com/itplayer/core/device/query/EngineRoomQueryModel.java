@@ -18,13 +18,8 @@ public class EngineRoomQueryModel extends QueryModel<EngineRoom> {
     @Override
     public ExampleMatcher buildMatcher() {
         ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        boolean allIsNull = true;
         if (StrUtils.isNotNull(engineRoom.getDeviceRoomName())) {
-            allIsNull = false;
             exampleMatcher.withMatcher("roomName", ExampleMatcher.GenericPropertyMatchers.contains());
-        }
-        if (allIsNull) {
-            return super.buildMatcher();
         }
         return exampleMatcher;
     }

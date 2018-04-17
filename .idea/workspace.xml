@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c1436e9-7fe2-475c-bc90-1fb4f8bf846d" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" readonly="true" id="f531fcf4-4335-4b2d-870d-e4594aacd6fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/BbuDeviceInfoQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OltInfoQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/BbuDeviceInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/IpRanInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OltInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceInfoQueryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OrdinaryInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OrdinaryInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OrdinaryInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/device_core/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/device_manage/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EngineRoom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java">
+      <file leaf-file-name="BbuDeviceInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,113 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Device.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceInfoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceInfoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1257#1258#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
-                <element signature="e#1387#1388#0" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1469#1470#0" expanded="true" />
-                <element signature="e#1533#1534#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-                <element signature="e#1638#1639#0" expanded="true" />
-                <element signature="e#1683#1684#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#1897#1898#0" expanded="true" />
-                <element signature="e#1949#1950#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2030#2031#0" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2115#2116#0" expanded="true" />
-                <element signature="e#2159#2160#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2231#2232#0" expanded="true" />
-                <element signature="e#2285#2286#0" expanded="true" />
-                <element signature="e#2331#2332#0" expanded="true" />
-                <element signature="e#2370#2371#0" expanded="true" />
-                <element signature="e#2405#2406#0" expanded="true" />
-                <element signature="e#2461#2462#0" expanded="true" />
-                <element signature="e#2509#2510#0" expanded="true" />
-                <element signature="e#2547#2548#0" expanded="true" />
-                <element signature="e#2581#2582#0" expanded="true" />
-                <element signature="e#2635#2636#0" expanded="true" />
-                <element signature="e#2681#2682#0" expanded="true" />
-                <element signature="e#2716#2717#0" expanded="true" />
-                <element signature="e#2747#2748#0" expanded="true" />
-                <element signature="e#2795#2796#0" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2873#2874#0" expanded="true" />
-                <element signature="e#2907#2908#0" expanded="true" />
-                <element signature="e#2961#2962#0" expanded="true" />
-                <element signature="e#3007#3008#0" expanded="true" />
-                <element signature="e#3045#3046#0" expanded="true" />
-                <element signature="e#3079#3080#0" expanded="true" />
-                <element signature="e#3133#3134#0" expanded="true" />
-                <element signature="e#3179#3180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EngineRoomServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/EngineRoomServiceImpl.java">
+      <file leaf-file-name="IpRanInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,20 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/system/ManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EngineRoomController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/EngineRoomController.java">
+      <file leaf-file-name="OltInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,33 +82,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceController.java">
+      <file leaf-file-name="OltInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceInfoController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceInfoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="425">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BbuDeviceInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IpRanInfoServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdinaryInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IpRanInfoController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OltInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BbuDeviceInfoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -204,75 +169,50 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>area</find>
-      <find>areaService</find>
-      <find>ManagerQueryModel</find>
-      <find>EngineRoom</find>
-      <find>engineRoom</find>
+      <find>ordinaryInfo</find>
+      <find>deviceInfoService</find>
     </findStrings>
     <replaceStrings>
-      <replace>manager</replace>
-      <replace>managerService</replace>
-      <replace>EngineRoom</replace>
-      <replace>MngineRoomQueryModel</replace>
-      <replace>Device</replace>
-      <replace>deviceInfoS</replace>
+      <replace>oltInfo</replace>
+      <replace>bbuDeviceInfo</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/ResultDto.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageRresult.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/AreaService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageModel.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageResult.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageableUtil.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/system/AreaController.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/ManagerService.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/system/ManagerController.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/ManagerRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/Model.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/QueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceInfo.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/enums/DeviceType.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/repo/BaseRepostory.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/AreaRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceRoomRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/ManagerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/ManagerRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BaseDeviceInfo.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceInfoRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OrdinaryInfoRepository.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/Device.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceRoomService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceRoomServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceRoom.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceRoomQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OrdinaryInfoService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/BbuDeviceInfoQueryModel.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/EngineRoomRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceRoomService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/EngineRoomService.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/EngineRoomController.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceController.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceInfoController.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceInfo.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OltInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/IpRanInfoRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/BbuDeviceInfoRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OltInfoRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java" />
       </list>
     </option>
   </component>
@@ -282,48 +222,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-51" />
-    <option name="y" value="33" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="x" value="2030" />
+    <option name="y" value="48" />
+    <option name="width" value="2177" />
+    <option name="height" value="1008" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -339,56 +249,110 @@
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
               <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="device_manage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
               <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="manage" type="462c0819:PsiDirectoryNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/workspace/idea/device/device_core/src/main/java/com/itplayer/core/device/service/DeviceInfoService.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cms-dxt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.itplayer.manage" />
-      <recent name="com.itplayer" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\idea\device\device_core\src\main\java\com\itplayer\core\device" />
-      <recent name="F:\workspace\idea\device\device_core\src\main\java\com\itplayer\core\base\page" />
-      <recent name="F:\workspace\idea\device\device_manage\src\main" />
-      <recent name="F:\workspace\idea\device\device_manage\src" />
-      <recent name="F:\workspace\idea\device\device_core\src\main\java\com\itplayer\core" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itplayer.manage.device" />
+      <recent name="com.itplayer.core.device.repository" />
       <recent name="com.itplayer.core.device.query" />
-      <recent name="com.itplayer.core.system.query" />
-      <recent name="com.itplayer.manage.system" />
-      <recent name="com.itplayer.core.system.entity" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\idea\device\device_core\src\main\java\com\itplayer\core\base\page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -403,101 +367,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DeviceApplication">
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DeviceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="device_manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itplayer" />
-      <option name="MAIN_CLASS_NAME" value="com.itplayer.DeviceApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeviceApplicationTests.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="device_manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itplayer" />
-      <option name="MAIN_CLASS_NAME" value="com.itplayer.DeviceApplicationTests" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeviceApplicationTests.fiandAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="device_manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itplayer" />
-      <option name="MAIN_CLASS_NAME" value="com.itplayer.DeviceApplicationTests" />
-      <option name="METHOD_NAME" value="fiandAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DeviceApplicationTests.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="device_manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.itplayer" />
-      <option name="MAIN_CLASS_NAME" value="com.itplayer.DeviceApplicationTests" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -515,18 +387,8 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DeviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="device_manage" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itplayer.DemoApplication" />
-    </configuration>
-    <configuration name="DeviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="device_manage" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itplayer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itplayer.DeviceApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -551,81 +413,41 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.DeviceApplication" />
-      <item itemvalue="JUnit.DeviceApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.DeviceApplicationTests.update" />
-      <item itemvalue="JUnit.DeviceApplicationTests.delete" />
-      <item itemvalue="JUnit.DeviceApplicationTests.fiandAll" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.DeviceApplication" />
-        <item itemvalue="JUnit.DeviceApplicationTests.fiandAll" />
-        <item itemvalue="JUnit.DeviceApplicationTests.update" />
-        <item itemvalue="JUnit.DeviceApplicationTests.delete" />
-        <item itemvalue="JUnit.DeviceApplicationTests.contextLoads" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6c1436e9-7fe2-475c-bc90-1fb4f8bf846d" name="Default" comment="" />
-      <created>1523751964297</created>
+      <changelist id="f531fcf4-4335-4b2d-870d-e4594aacd6fd" name="Default" comment="" />
+      <created>1523837254203</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1523751964297</updated>
-      <workItem from="1523751967533" duration="16021000" />
-      <workItem from="1523780056482" duration="6974000" />
+      <updated>1523837254203</updated>
+      <workItem from="1523837257607" duration="4157000" />
+      <workItem from="1523922984367" duration="2952000" />
     </task>
+    <task id="LOCAL-00001" summary="调整结构">
+      <created>1523840790130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523840790130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 10h 29m 58s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 10h 31m 01s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 11h 48m 09s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 14h 27m 39s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 17h 56m 47s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 18h 00m 51s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 18h 01m 49s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 18h 14m 20s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 18h 39m 30s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.15 at 18h 40m 22s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22995000" />
+    <option name="totallyTimeSpent" value="7109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.078891255" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -633,18 +455,17 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37583894" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.41722596" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.61409396" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2979744" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -654,7 +475,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.2785235" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,312 +484,560 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="15" />
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整结构" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/domain/Slice.class">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/BaseQueryModel.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageableUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+        <state relative-caret-position="1075">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/exception/SystemException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/AreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/system/AreaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1349#1350#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/ManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/asdf.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/domain/ExampleMatcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="162" column="32" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1266#1267#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1343#1344#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/QueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/enums/DeviceType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/Program Files/Java/jdk1.8.0_111/src.zip!/java/io/Serializable.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="151" column="65" selection-start-line="151" selection-start-column="65" selection-end-line="151" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/repo/BaseRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="350">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="150">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/AreaRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="1200">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/ManagerRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/enums/DeviceType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BaseDeviceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1849#1850#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
+            <element signature="e#2181#2182#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2401#2402#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/ManagerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="709">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1572#1573#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1770#1771#0" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2069#2070#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2438#2439#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1759#1760#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2023#2024#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2157#2158#0" expanded="true" />
+            <element signature="e#2195#2196#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2329#2330#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2389#2390#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OrdinaryInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OrdinaryInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceQueryModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceInfoQueryModel.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/BbuDeviceInfoQueryModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="21" column="102" selection-start-line="21" selection-start-column="102" selection-end-line="21" selection-end-column="102" />
+        <state relative-caret-position="450">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OltInfoQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/EngineRoomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OltInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OrdinaryInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/IpRanInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -977,238 +1046,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceService.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/EngineRoomRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/EngineRoomService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/EngineRoomServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/BbuDeviceInfoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/system/ManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/EngineRoomController.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceController.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="200">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceInfo.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1533#1534#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2030#2031#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2115#2116#0" expanded="true" />
-            <element signature="e#2159#2160#0" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2231#2232#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2331#2332#0" expanded="true" />
-            <element signature="e#2370#2371#0" expanded="true" />
-            <element signature="e#2405#2406#0" expanded="true" />
-            <element signature="e#2461#2462#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2547#2548#0" expanded="true" />
-            <element signature="e#2581#2582#0" expanded="true" />
-            <element signature="e#2635#2636#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2716#2717#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
-            <element signature="e#2795#2796#0" expanded="true" />
-            <element signature="e#2835#2836#0" expanded="true" />
-            <element signature="e#2873#2874#0" expanded="true" />
-            <element signature="e#2907#2908#0" expanded="true" />
-            <element signature="e#2961#2962#0" expanded="true" />
-            <element signature="e#3007#3008#0" expanded="true" />
-            <element signature="e#3045#3046#0" expanded="true" />
-            <element signature="e#3079#3080#0" expanded="true" />
-            <element signature="e#3133#3134#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="500">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="500">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="46" column="65" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1218,7 +1154,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

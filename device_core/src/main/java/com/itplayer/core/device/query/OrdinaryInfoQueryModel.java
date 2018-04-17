@@ -5,7 +5,7 @@ import com.itplayer.core.device.entity.OrdinaryInfo;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
 
-public class DeviceInfoQueryModel extends QueryModel<OrdinaryInfo> {
+public class OrdinaryInfoQueryModel extends QueryModel<OrdinaryInfo> {
     private OrdinaryInfo ordinaryInfo;
 
     @Override
@@ -16,14 +16,17 @@ public class DeviceInfoQueryModel extends QueryModel<OrdinaryInfo> {
     @Override
     public ExampleMatcher buildMatcher() {
         ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        boolean allIsNull = true;
         if (ordinaryInfo.getDeviceId() != null) {
-            allIsNull = false;
             exampleMatcher.withMatcher("deviceId", ExampleMatcher.GenericPropertyMatchers.ignoreCase());
         }
-        if (allIsNull) {
-            return super.buildMatcher();
-        }
         return exampleMatcher;
+    }
+
+    public OrdinaryInfo getOrdinaryInfo() {
+        return ordinaryInfo;
+    }
+
+    public void setOrdinaryInfo(OrdinaryInfo ordinaryInfo) {
+        this.ordinaryInfo = ordinaryInfo;
     }
 }

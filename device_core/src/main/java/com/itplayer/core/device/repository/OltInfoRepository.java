@@ -1,0 +1,12 @@
+package com.itplayer.core.device.repository;
+
+import com.itplayer.core.base.repo.BaseRepository;
+import com.itplayer.core.device.entity.OltInfo;
+import org.springframework.stereotype.Repository;
+
+/**
+ * Created by caijun.yang on 2018/4/17
+ */
+@Repository
+public interface OltInfoRepository extends BaseRepository<OltInfo, Long> {
+}

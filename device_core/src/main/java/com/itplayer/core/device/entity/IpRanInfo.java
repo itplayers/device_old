@@ -7,6 +7,8 @@ import com.itplayer.core.base.entity.MetaEntity;
  * 4G传输设备
  */
 public class IpRanInfo extends MetaEntity {
+    private Long deviceId;
+
     /**
      * 跳纤架位置
      */
@@ -40,4 +42,67 @@ public class IpRanInfo extends MetaEntity {
     private String serviceName;
 
 
+    public Long getDeviceId() {
+        return deviceId;
+    }
+
+    public void setDeviceId(Long deviceId) {
+        this.deviceId = deviceId;
+    }
+
+    public String getFiberFrameAddr() {
+        return fiberFrameAddr;
+    }
+
+    public void setFiberFrameAddr(String fiberFrameAddr) {
+        this.fiberFrameAddr = fiberFrameAddr;
+    }
+
+    public String getFiberFramePort() {
+        return fiberFramePort;
+    }
+
+    public void setFiberFramePort(String fiberFramePort) {
+        this.fiberFramePort = fiberFramePort;
+    }
+
+    public String getTargetDevice() {
+        return targetDevice;
+    }
+
+    public void setTargetDevice(String targetDevice) {
+        this.targetDevice = targetDevice;
+    }
+
+    public String getTargetDeviceModel() {
+        return targetDeviceModel;
+    }
+
+    public void setTargetDeviceModel(String targetDeviceModel) {
+        this.targetDeviceModel = targetDeviceModel;
+    }
+
+    public String getTargetFiberFrame() {
+        return targetFiberFrame;
+    }
+
+    public void setTargetFiberFrame(String targetFiberFrame) {
+        this.targetFiberFrame = targetFiberFrame;
+    }
+
+    public String getPhysicalPort() {
+        return physicalPort;
+    }
+
+    public void setPhysicalPort(String physicalPort) {
+        this.physicalPort = physicalPort;
+    }
+
+    public String getServiceName() {
+        return serviceName;
+    }
+
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
+    }
 }
