@@ -1,5 +1,6 @@
 package com.itplayer.manage.device;
 
+import com.itplayer.core.base.exception.SystemException;
 import com.itplayer.core.base.page.PageResult;
 import com.itplayer.core.base.web.BaseController;
 import com.itplayer.core.base.web.ResponseData;
@@ -9,6 +10,7 @@ import com.itplayer.core.device.query.EngineRoomQueryModel;
 import com.itplayer.core.device.service.DeviceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -47,5 +49,16 @@ public class DeviceController extends BaseController {
     public ResponseData list(@RequestBody DeviceQueryModel queryModel) {
         PageResult<Device> pageResult = deviceService.queryPage(queryModel);
         return success(pageResult);
+    }
+
+    @PostMapping("/import")
+    public void improtFile(MultipartFile file,String deviceName) {
+        // InputStream is=file.getInpdutStreamg();
+        WorkB
+        String name = file.getOriginalFilename();
+        if (!name.endsWith(".xlsx") && !name.endsWith(".xls")) {
+            throw new SystemException("文件格式不正确");
+        }
+        deviceService.improt(file, deviceName);
     }
 }
