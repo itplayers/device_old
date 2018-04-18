@@ -49,4 +49,5 @@ public class ManagerController extends BaseController {
         PageResult<Manager> pageResult = managerService.queryPage(managerQueryModel);
         return success(pageResult);
     }
+
 }
