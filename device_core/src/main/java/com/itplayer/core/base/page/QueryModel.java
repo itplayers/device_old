@@ -5,6 +5,7 @@ import com.itplayer.core.base.utils.JsonUtils;
 import com.itplayer.core.base.utils.StrUtils;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.jpa.domain.Specification;
 
 /**
  * Created by caijun.yang 2018-4-15.
@@ -87,6 +88,10 @@ public  class QueryModel<T extends BaseEntity> implements Model {
     }
 
     public Example<T> buildExample() {
+        return null;
+    }
+
+    public Specification<T> buildSpecification(){
         return null;
     }
 }
