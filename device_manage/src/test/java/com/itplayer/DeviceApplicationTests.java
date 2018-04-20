@@ -53,10 +53,11 @@ public class DeviceApplicationTests {
     @Test
     public void fiandAll() {
         AreaQueryModel pageQueryModel = new AreaQueryModel();
-        pageQueryModel.setPageSize(1);
+        pageQueryModel.setPageSize(10);
         pageQueryModel.setCurrentPage(1);
         Area area = new Area();
-        area.setAreaName("泸州");
+        area.setAreaName("2");
+        area.setCreateDate(new Date());
         pageQueryModel.setArea(area);
         PageResult<Area> areaPageResult = areaService.queryPage(pageQueryModel);
         System.out.print(areaPageResult);

@@ -14,12 +14,12 @@ import java.util.Date;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 
-    @Column(name = "createDate")
+    @Column(name = "createdate")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createDate;
 
-    @Column(name = "updateDate")
+    @Column(name = "updatedate")
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date updateDate;

@@ -54,7 +54,7 @@ public class DeviceController extends BaseController {
     @PostMapping("/import")
     public void improtFile(MultipartFile file,String deviceName) {
         // InputStream is=file.getInpdutStreamg();
-        WorkB
+//        WorkB
         String name = file.getOriginalFilename();
         if (!name.endsWith(".xlsx") && !name.endsWith(".xls")) {
             throw new SystemException("文件格式不正确");

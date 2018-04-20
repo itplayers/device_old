@@ -32,11 +32,10 @@ public class AreaServiceImpl extends BaseServiceImpl<Area, Long> implements Area
 
     @Override
     public PageResult<Area> queryPage(QueryModel<Area> queryModel) {
-        Example<Area> example = queryModel.buildExample();
-        Pageable pageable = PageableUtil.build(queryModel);
         Specification<Area> areaSpecification = queryModel.buildSpecification();
+        Pageable pageable = queryModel.buildPageable();
+        long totalCount = areaRepository.count(areaSpecification);
         Page<Area> tPage = areaRepository.findAll(areaSpecification, pageable);
-        long totalCount = areaRepository.count(example);
         queryModel.setTotalCount(totalCount);
         List<Area> content = tPage.getContent();
         return new PageResult(content, queryModel);

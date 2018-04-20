@@ -69,16 +69,6 @@ public abstract class QueryModel<T extends BaseEntity> implements Model {
         this.orders = orders;
     }
 
-    public ExampleMatcher buildMatcher() {
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching()
-                .withIgnoreNullValues().withIgnoreCase()
-                .withStringMatcher(ExampleMatcher.StringMatcher.DEFAULT);
-        return exampleMatcher;
-    }
-
-    public Example<T> buildExample() {
-        return null;
-    }
 
     public Specification<T> buildSpecification() {
         Specification<T> querySpecifi = new Specification<T>() {
@@ -97,6 +87,7 @@ public abstract class QueryModel<T extends BaseEntity> implements Model {
         } else {
             currentPage -= 1;
         }
+        createOrder();
         if (null != orders && orders.keySet().size() > 0) {
             List<Sort.Order> sortOrders = new LinkedList<>();
             for (Map.Entry<String, Sort.Direction> entry : orders.entrySet()) {
@@ -115,5 +106,9 @@ public abstract class QueryModel<T extends BaseEntity> implements Model {
             orders = new HashMap<String, Sort.Direction>();
         }
         orders.put(orderKey, direction);
+    }
+
+    protected void createOrder() {
+
     }
 }

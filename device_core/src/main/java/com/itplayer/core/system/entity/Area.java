@@ -14,9 +14,9 @@ import java.io.Serializable;
 @Table(name = "tbl_area")
 public class Area extends MetaEntity {
 
-    @Column
+    @Column(name = "areacode")
     private String areaCode;
-    @Column
+    @Column(name = "areaname")
     private String areaName;
     @Column
     private Long parent_id;

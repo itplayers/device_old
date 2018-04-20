@@ -1,6 +1,7 @@
 package com.itplayer.core.system.query;
 
 import com.itplayer.core.base.page.QueryModel;
+import com.itplayer.core.base.utils.DateUtils;
 import com.itplayer.core.base.utils.StrUtils;
 import com.itplayer.core.system.entity.Area;
 import org.apache.poi.ss.usermodel.DateUtil;
@@ -15,36 +16,30 @@ import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 import javax.sql.DataSource;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class AreaQueryModel extends QueryModel<Area> {
-    private Area area;
 
-    public ExampleMatcher buildMatcher() {
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        boolean allIsNull = true;
-        if (StrUtils.isNotNull(area.getAreaName())) {
-            allIsNull = false;
-            exampleMatcher = ExampleMatcher.matching().withMatcher("areaName", ExampleMatcher.GenericPropertyMatchers.contains());
-        }
-        if (allIsNull) {
-            super.buildMatcher();
-        }
-        return exampleMatcher;
-    }
+//    public ExampleMatcher buildMatcher() {
+//        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
+//        if (StrUtils.isNotNull(area.getAreaName())) {
+//            exampleMatcher = ExampleMatcher.matching().withMatcher("areaName", ExampleMatcher.GenericPropertyMatchers.contains());
+//        }
+//
+//        return exampleMatcher;
+//    }
+//
+//    public Example<Area> buildExample() {
+//        Example<Area> example = Example.of(area, buildMatcher());
+//        return example;
+//    }
 
-    public Area getArea() {
-        return area;
-    }
+    private String areaName;
 
-    public void setArea(Area area) {
-        this.area = area;
-    }
+    private Date startDate;
 
-    public Example<Area> buildExample() {
-        Example<Area> example = Example.of(area, buildMatcher());
-        return example;
-    }
+    private Date endDate;
 
 
     public Specification<Area> buildSpecification() {
@@ -52,25 +47,50 @@ public class AreaQueryModel extends QueryModel<Area> {
             @Override
             public Predicate toPredicate(Root<Area> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder cb) {
                 List<Predicate> predicates = new ArrayList<>();
-                if (area.getCreateDate() != null) {
+                if (startDate != null) {
                     //大于或等于传入时间
-                    predicates.add(cb.greaterThanOrEqualTo(root.get("createDate").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
+                    predicates.add(cb.greaterThanOrEqualTo(root.get("createDate").as(Date.class), startDate));
                 }
-                if (area.getUpdateDate() != null) {
-                    //小于或等于传入时间
-                    predicates.add(cb.lessThanOrEqualTo(root.get("updateDate").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
+                if (endDate != null) {
+                    predicates.add(cb.lessThanOrEqualTo(root.get("createDate").as(Date.class), endDate));
                 }
-                if (StrUtils.isNull(area.getAreaName())) {
+                if (StrUtils.isNotNull(areaName)) {
                     //模糊查找
-                    predicates.add(cb.like(root.get(area.getAreaCode()).as(String.class), "%" + area.getAreaName() + "%"));
+                    predicates.add(cb.like(root.get("areaName").as(String.class), "%" + areaName + "%"));
                 }
-                if (null == getOrders() || getOrders().keySet().size() < 0) {
-                    addOrders("createDate", Sort.Direction.ASC);
-                }
+
                 // and到一起的话所有条件就是且关系，or就是或关系
                 return cb.and(predicates.toArray(new Predicate[predicates.size()]));
             }
         };
         return querySpecifi;
+    }
+
+    public String getAreaName() {
+        return areaName;
+    }
+
+    public void setAreaName(String areaName) {
+        this.areaName = areaName;
+    }
+
+    public Date getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
+    }
+
+    public void createOrder() {
+        addOrders("updateDate", Sort.Direction.DESC);
     }
 }

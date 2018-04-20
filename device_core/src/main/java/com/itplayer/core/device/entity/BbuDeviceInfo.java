@@ -2,10 +2,15 @@ package com.itplayer.core.device.entity;
 
 import com.itplayer.core.base.entity.MetaEntity;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
 /**
  * Created by caijun.yang on 2018/4/16
  * 无线设备，打电话用的
  */
+@Entity
+@Table(name = "tbl_bbuDeviceInfo")
 public class BbuDeviceInfo extends MetaEntity {
 
     private Long deviceId;

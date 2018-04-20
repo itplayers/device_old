@@ -9,6 +9,7 @@ import com.itplayer.core.base.service.BaseService;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 
 import java.io.Serializable;
 import java.util.List;
@@ -49,10 +50,18 @@ public class BaseServiceImpl<T extends BaseEntity, PK extends Serializable> impl
 
     @Override
     public PageResult<T> queryPage(QueryModel<T> queryModel) {
-        Example<T> example = queryModel.buildExample();
+//        Example<T> example = queryModel.buildExample();
+//        Pageable pageable = queryModel.buildPageable();
+//        Page<T> tPage = repostory.findAll(example, pageable);
+//        long totalCount = repostory.count(example);
+//        queryModel.setTotalCount(totalCount);
+//        List<T> content = tPage.getContent();
+//        return new PageResult(content, queryModel);
+
+        Specification<T> specification = queryModel.buildSpecification();
         Pageable pageable = queryModel.buildPageable();
-        Page<T> tPage = repostory.findAll(example, pageable);
-        long totalCount = repostory.count(example);
+        long totalCount = repostory.count(specification);
+        Page<T> tPage = repostory.findAll(specification, pageable);
         queryModel.setTotalCount(totalCount);
         List<T> content = tPage.getContent();
         return new PageResult(content, queryModel);
