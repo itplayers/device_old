@@ -5,34 +5,39 @@ import com.itplayer.core.base.utils.StrUtils;
 import com.itplayer.core.system.entity.Manager;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.access.method.P;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ManagerQueryModel extends QueryModel<Manager> {
-    private Manager manager;
+    private String realName;
 
-    public ExampleMatcher buildMatcher() {
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        boolean allIsNull = true;
-        if (StrUtils.isNotNull(manager.getRealName())) {
-            allIsNull = false;
-            exampleMatcher = ExampleMatcher.matching().withMatcher("realName", ExampleMatcher.GenericPropertyMatchers.contains());
-        }
-        if (allIsNull) {
-            return super.buildMatcher();
-        }
-        return exampleMatcher;
+    @Override
+    public Specification<Manager> buildSpecification() {
+        Specification<Manager> specification = new Specification<Manager>() {
+            @Override
+            public Predicate toPredicate(Root<Manager> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                List<Predicate> predicates = new ArrayList<Predicate>();
+                if (StrUtils.isNotNull(realName)) {
+                    predicates.add(criteriaBuilder.like(root.get("realName").as(String.class), "%" + realName + "%"));
+                }
+                return criteriaBuilder.and(predicates.toArray(new Predicate[predicates.size()]));
+            }
+        };
+        return specification;
     }
 
-
-    public Example<Manager> buildExample() {
-        Example<Manager> example = Example.of(manager, buildMatcher());
-        return example;
+    public String getRealName() {
+        return realName;
     }
 
-    public Manager getManager() {
-        return manager;
-    }
-
-    public void setManager(Manager manager) {
-        this.manager = manager;
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 }

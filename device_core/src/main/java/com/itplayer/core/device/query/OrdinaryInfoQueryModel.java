@@ -4,29 +4,41 @@ import com.itplayer.core.base.page.QueryModel;
 import com.itplayer.core.device.entity.OrdinaryInfo;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.access.method.P;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
+import java.util.List;
 
 public class OrdinaryInfoQueryModel extends QueryModel<OrdinaryInfo> {
-    private OrdinaryInfo ordinaryInfo;
+
+    private Long deviceId;
 
     @Override
-    public Example<OrdinaryInfo> buildExample() {
-        return super.buildExample();
+    public Specification<OrdinaryInfo> buildSpecification() {
+        Specification<OrdinaryInfo> specification = new Specification<OrdinaryInfo>() {
+            @Override
+            public Predicate toPredicate(Root<OrdinaryInfo> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                List<Predicate> predicates = new ArrayList<Predicate>();
+
+                if (null != deviceId) {
+                    predicates.add(criteriaBuilder.equal(root.get("deviceId").as(Long.class), deviceId));
+                }
+                return criteriaBuilder.and(predicates.toArray(new Predicate[predicates.size()]));
+            }
+        };
+        return specification;
     }
 
-    @Override
-    public ExampleMatcher buildMatcher() {
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        if (ordinaryInfo.getDeviceId() != null) {
-            exampleMatcher.withMatcher("deviceId", ExampleMatcher.GenericPropertyMatchers.ignoreCase());
-        }
-        return exampleMatcher;
+    public Long getDeviceId() {
+        return deviceId;
     }
 
-    public OrdinaryInfo getOrdinaryInfo() {
-        return ordinaryInfo;
-    }
-
-    public void setOrdinaryInfo(OrdinaryInfo ordinaryInfo) {
-        this.ordinaryInfo = ordinaryInfo;
+    public void setDeviceId(Long deviceId) {
+        this.deviceId = deviceId;
     }
 }

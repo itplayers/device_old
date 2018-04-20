@@ -4,28 +4,43 @@ import com.itplayer.core.base.page.QueryModel;
 import com.itplayer.core.device.entity.BbuDeviceInfo;
 import com.itplayer.core.device.entity.IpRanInfo;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.access.method.P;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by caijun.yang on 2018/4/17
  */
 public class IpRanInfoQueryModel extends QueryModel<IpRanInfo> {
 
-    private IpRanInfo ipRanInfo;
+    private Long deviceId;
 
     @Override
-    public ExampleMatcher buildMatcher() {
-        ExampleMatcher exampleMatcher = ExampleMatcher.matching();
-        if (ipRanInfo.getDeviceId() != null) {
-            exampleMatcher.withMatcher("deviceId", ExampleMatcher.GenericPropertyMatchers.ignoreCase());
-        }
-        return exampleMatcher;
+    public Specification<IpRanInfo> buildSpecification() {
+        Specification<IpRanInfo> specification = new Specification<IpRanInfo>() {
+            @Override
+            public Predicate toPredicate(Root<IpRanInfo> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                List<Predicate> predicates = new ArrayList<Predicate>();
+                if (null != deviceId) {
+                    predicates.add(criteriaBuilder.equal(root.get("deviceId").as(Long.class), deviceId));
+                }
+                return criteriaBuilder.and(predicates.toArray(new Predicate[predicates.size()]));
+            }
+        };
+        return specification;
     }
 
-    public IpRanInfo getIpRanInfo() {
-        return ipRanInfo;
+    public Long getDeviceId() {
+        return deviceId;
     }
 
-    public void setIpRanInfo(IpRanInfo ipRanInfo) {
-        this.ipRanInfo = ipRanInfo;
+    public void setDeviceId(Long deviceId) {
+        this.deviceId = deviceId;
     }
 }
