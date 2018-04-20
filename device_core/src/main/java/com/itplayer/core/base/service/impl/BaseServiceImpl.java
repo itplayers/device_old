@@ -2,11 +2,9 @@ package com.itplayer.core.base.service.impl;
 
 import com.itplayer.core.base.entity.BaseEntity;
 import com.itplayer.core.base.page.PageResult;
-import com.itplayer.core.base.page.PageableUtil;
 import com.itplayer.core.base.page.QueryModel;
 import com.itplayer.core.base.repo.BaseRepository;
 import com.itplayer.core.base.service.BaseService;
-import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
