@@ -6,6 +6,7 @@ import com.itplayer.core.system.entity.Area;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -53,15 +54,18 @@ public class AreaQueryModel extends QueryModel<Area> {
                 List<Predicate> predicates = new ArrayList<>();
                 if (area.getCreateDate() != null) {
                     //大于或等于传入时间
-                    predicates.add(cb.greaterThanOrEqualTo(root.get("commitTime").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
+                    predicates.add(cb.greaterThanOrEqualTo(root.get("createDate").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
                 }
                 if (area.getUpdateDate() != null) {
                     //小于或等于传入时间
-                    predicates.add(cb.lessThanOrEqualTo(root.get("commitTime").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
+                    predicates.add(cb.lessThanOrEqualTo(root.get("updateDate").as(String.class), "yyyyy-MM-dd hh:mm:ss"));
                 }
                 if (StrUtils.isNull(area.getAreaName())) {
                     //模糊查找
                     predicates.add(cb.like(root.get(area.getAreaCode()).as(String.class), "%" + area.getAreaName() + "%"));
+                }
+                if (null == getOrders() || getOrders().keySet().size() < 0) {
+                    addOrders("createDate", Sort.Direction.ASC);
                 }
                 // and到一起的话所有条件就是且关系，or就是或关系
                 return cb.and(predicates.toArray(new Predicate[predicates.size()]));

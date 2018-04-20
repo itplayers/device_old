@@ -50,7 +50,7 @@ public class BaseServiceImpl<T extends BaseEntity, PK extends Serializable> impl
     @Override
     public PageResult<T> queryPage(QueryModel<T> queryModel) {
         Example<T> example = queryModel.buildExample();
-        Pageable pageable = PageableUtil.build(queryModel);
+        Pageable pageable = queryModel.buildPageable();
         Page<T> tPage = repostory.findAll(example, pageable);
         long totalCount = repostory.count(example);
         queryModel.setTotalCount(totalCount);

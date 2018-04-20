@@ -3,37 +3,26 @@ package com.itplayer.core.base.page;
 import com.itplayer.core.base.entity.BaseEntity;
 import com.itplayer.core.base.utils.JsonUtils;
 import com.itplayer.core.base.utils.StrUtils;
-import org.springframework.data.domain.Example;
-import org.springframework.data.domain.ExampleMatcher;
+import com.itplayer.core.system.entity.Area;
+import org.springframework.data.domain.*;
 import org.springframework.data.jpa.domain.Specification;
+
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
+import java.util.*;
 
 /**
  * Created by caijun.yang 2018-4-15.
  */
-public  class QueryModel<T extends BaseEntity> implements Model {
+public abstract class QueryModel<T extends BaseEntity> implements Model {
     private Long totalCount;
     private Long totalPage;
     private Integer currentPage;
     private Integer pageSize;
-    private String order;
+    private Map<String, Sort.Direction> orders;
 
-
-    /**
-     * 初始化page的JSON串为对象
-     *
-     * @param page
-     * @return
-     */
-    public static QueryModel init(String page) {
-        if (StrUtils.isNull(page)) {
-            return null;
-        }
-        try {
-            return JsonUtils.str2Obj(page, QueryModel.class);
-        } catch (Exception e) {
-            return null;
-        }
-    }
 
     public static Integer calcStartLine(Integer currentPage, Integer pageSize) {
         return (currentPage - 1) * pageSize;
@@ -72,12 +61,12 @@ public  class QueryModel<T extends BaseEntity> implements Model {
         this.pageSize = pageSize;
     }
 
-    public String getOrder() {
-        return order;
+    public Map<String, Sort.Direction> getOrders() {
+        return orders;
     }
 
-    public void setOrder(String order) {
-        this.order = order;
+    public void setOrders(Map<String, Sort.Direction> orders) {
+        this.orders = orders;
     }
 
     public ExampleMatcher buildMatcher() {
@@ -91,7 +80,40 @@ public  class QueryModel<T extends BaseEntity> implements Model {
         return null;
     }
 
-    public Specification<T> buildSpecification(){
-        return null;
+    public Specification<T> buildSpecification() {
+        Specification<T> querySpecifi = new Specification<T>() {
+            @Override
+            public Predicate toPredicate(Root<T> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder cb) {
+                List<Predicate> predicates = new ArrayList<>();
+                return cb.and(predicates.toArray(new Predicate[predicates.size()]));
+            }
+        };
+        return querySpecifi;
+    }
+
+    public Pageable buildPageable() {
+        if (currentPage < 1) {
+            currentPage = 0;
+        } else {
+            currentPage -= 1;
+        }
+        if (null != orders && orders.keySet().size() > 0) {
+            List<Sort.Order> sortOrders = new LinkedList<>();
+            for (Map.Entry<String, Sort.Direction> entry : orders.entrySet()) {
+                String key = entry.getKey();
+                Sort.Direction value = entry.getValue();
+                sortOrders.add(new Sort.Order(value, key));
+            }
+            Sort sort = new Sort(sortOrders);
+            return new PageRequest(currentPage, pageSize, sort);
+        }
+        return new PageRequest(currentPage, pageSize);
+    }
+
+    protected void addOrders(String orderKey, Sort.Direction direction) {
+        if (orders == null) {
+            orders = new HashMap<String, Sort.Direction>();
+        }
+        orders.put(orderKey, direction);
     }
 }

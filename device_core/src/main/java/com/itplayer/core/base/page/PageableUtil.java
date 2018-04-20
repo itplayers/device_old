@@ -14,6 +14,8 @@ import java.util.List;
  * Created by caijun.yang 2018-4-15.
  */
 public class PageableUtil {
+/*
+
 
     public static Pageable build(QueryModel pageDto) {
         if (StrUtils.isNull(pageDto.getOrder())) {
@@ -60,4 +62,5 @@ public class PageableUtil {
             throw new RuntimeException("err direction string");
         }
     }
+     */
 }
