@@ -2,11 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f531fcf4-4335-4b2d-870d-e4594aacd6fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/PermissionQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/RoleQueryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/PermissionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/realm/CustomRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/profile-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/avatars/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/ace-ie.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/ace-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/ace-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/ace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/bootstrap-editable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/bootstrap-timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/chosen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/font-awesome-ie7.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/jquery-ui-1.10.3.custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/jquery-ui-1.10.3.full.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/css/ui.jqgrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/font/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/image-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/images/gallery/thumb-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/ace-elements.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/ace-extra.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/ace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/chosen.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/date-time/daterangepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/date-time/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/flot/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/flot/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/flot/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/fuelux/fuelux.tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.autosize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.easy-pie-chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.hotkeys.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.knob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.slimscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/markdown/markdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/typeahead-bs2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/x-editable/ace-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/assets/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/dropzone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/error-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/error-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/form-wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/inbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/jqgrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/jquery-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/nestable-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/treeview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/device_manage/src/main/webapp/view/wysiwyg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/ManagerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/ManagerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/device_manage/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/device_manage/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/img/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/img/科技2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/js/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/js/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/myview/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/main/resources/resources/myview/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/device_core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,95 +182,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AreaServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_manage/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="179">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeviceApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java">
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/entity/BaseEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/QueryModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaQueryModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="700">
+              <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
               <folding>
-                <element signature="e#2534#2535#0" expanded="true" />
-                <element signature="e#2565#2566#0" expanded="true" />
-                <element signature="e#2613#2614#0" expanded="true" />
-                <element signature="e#2653#2654#0" expanded="true" />
-                <element signature="e#2687#2688#0" expanded="true" />
-                <element signature="e#2719#2720#0" expanded="true" />
-                <element signature="e#2767#2768#0" expanded="true" />
-                <element signature="e#2809#2810#0" expanded="true" />
-                <element signature="e#2841#2842#0" expanded="true" />
-                <element signature="e#2871#2872#0" expanded="true" />
-                <element signature="e#2915#2916#0" expanded="true" />
-                <element signature="e#2953#2954#0" expanded="true" />
-                <element signature="e#2745#2746#0" expanded="true" />
-                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#449#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/utils/DateUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ShiroFilterFactoryBean.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="e#2096#2097#0" expanded="true" />
+                <element signature="e#2150#2151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleJpaRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="397" selection-start-line="397" selection-end-line="397" />
+            <state relative-caret-position="793">
+              <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultWebSecurityManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultSecurityManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebSecurityManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/mgt/WebSecurityManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/device_core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="92" column="25" selection-start-line="77" selection-start-column="12" selection-end-line="92" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityManager.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/SecurityManager.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityManager.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/SecurityManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5567">
+              <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -118,9 +285,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -129,6 +296,7 @@
       <find>deviceInfoService</find>
       <find>ordinaryInfo</find>
       <find>bbuDeviceInfoService</find>
+      <find>SecurityManager</find>
     </findStrings>
     <replaceStrings>
       <replace>bbuDeviceInfo</replace>
@@ -141,56 +309,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/DeviceInfo.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/enums/DeviceType.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BaseDeviceInfo.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OrdinaryInfoRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OrdinaryInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/BbuDeviceInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OltInfoQueryModel.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/IpRanInfoRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/BbuDeviceInfoRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OltInfoRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceService.java" />
-        <option value="$PROJECT_DIR$/device_manage/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/device_core/pom.xml" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/webapp/common.html" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/webapp/js/common.js" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/repo/BaseRepository.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageableUtil.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceController.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java" />
-        <option value="$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/utils/DateUtils.java" />
-        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java" />
         <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/QueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/Model.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/EngineRoomQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/DeviceQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/BbuDeviceInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OltInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/OrdinaryInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/query/IpRanInfoQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/resources/resources/index.html" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/propertis/LoginType.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/LoginManager.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/propertis/AuthorityProperties.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/authentication/CustomAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/authentication/CustomAuthenticationFaildHandler.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityCoreConfig.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityReqController.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateController.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/AbstractImageCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/AbstractSmsCodeGenerator.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateBeanConfig.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateCodeFilter.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Role.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/RoleQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/PermissionQueryModel.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Permission.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/PermissionRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/PermissionService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/device_core/pom.xml" />
+        <option value="$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/device_manage/pom.xml" />
       </list>
     </option>
   </component>
@@ -202,43 +371,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_core" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="device_manage" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-227" />
+    <option name="y" value="314" />
+    <option name="width" value="1932" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,6 +387,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,173 +411,6 @@
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
               <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="device_manage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -448,6 +425,33 @@
               <item name="device_manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
+              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
@@ -462,136 +466,43 @@
               <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="device_manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
               <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="device_manage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="device" type="b2602c69:ProjectViewProjectNode" />
               <item name="device" type="462c0819:PsiDirectoryNode" />
-              <item name="device_manage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="device" type="b2602c69:ProjectViewProjectNode" />
+              <item name="device" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itplayer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:1.13.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-1.13.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.11.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.11.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.11.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="device" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-jpa-1.11.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -602,11 +513,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\idea\device\device_manage\src\main\java\com\itplayer\security" />
+      <recent name="F:\workspace\idea\device\device_manage\src\main\webapp" />
+      <recent name="F:\workspace\idea\device\device_manage\src\main\resources\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itplayer.core.system.service.impl" />
+      <recent name="com.itplayer.core.system.repository" />
+      <recent name="com.itplayer.core.system.query" />
+      <recent name="com.itplayer.security.support" />
       <recent name="com.itplayer.core.base.utils" />
-      <recent name="com.itplayer.manage.device" />
-      <recent name="com.itplayer.core.device.repository" />
-      <recent name="com.itplayer.core.device.query" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\idea\device\device_manage\src\main\resources\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -621,7 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeviceApplicationTests.fiandAll">
+  <component name="RunManager" selected="Spring Boot.DeviceApplication">
     <configuration name="AreaServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.itplayer.core.system.service.impl.AreaServiceImpl" />
       <module name="device_core" />
@@ -756,6 +676,9 @@
       <workItem from="1524129832603" duration="2001000" />
       <workItem from="1524190578491" duration="4062000" />
       <workItem from="1524210463804" duration="7402000" />
+      <workItem from="1524347796471" duration="2306000" />
+      <workItem from="1524384163027" duration="3849000" />
+      <workItem from="1524388082258" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="调整结构">
       <created>1523840790130</created>
@@ -813,16 +736,17 @@
       <option name="project" value="LOCAL" />
       <updated>1524217357767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改查询对象">
+      <created>1524229666895</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524229666895</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.20 at 17h 18m 58s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.20 at 17h 23m 33s.xml">
-      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.20 at 17h 24m 46s.xml">
       <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
     </history-entry>
@@ -847,17 +771,31 @@
     <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.20 at 17h 34m 24s.xml">
       <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.22 at 05h 58m 08s.xml">
+      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DeviceApplicationTests_fiandAll - 2018.04.22 at 05h 58m 52s.xml">
+      <configuration name="DeviceApplicationTests.fiandAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27860000" />
+    <option name="totallyTimeSpent" value="39068000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.21268657" side_tool="true" weight="0.32976446" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10501066" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.12526652" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -865,28 +803,28 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.23233405" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.7237687" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26763716" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78731346" weight="0.16013438" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.15845825" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.78731346" weight="0.6059957" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2510661" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.26203808" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,14 +841,15 @@
     <MESSAGE value="调整分页查询排序" />
     <MESSAGE value="调整查询方式" />
     <MESSAGE value="移除不需要的工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除不需要的工具类" />
+    <MESSAGE value="修改查询对象" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改查询对象" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java</url>
-          <line>62</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
@@ -920,85 +859,320 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.class</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/jasperreports/JasperReportsViewResolver.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/jasperreports/JasperReportsViewResolver.class</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.8.RELEASE/spring-webmvc-4.3.8.RELEASE.jar!/org/springframework/web/servlet/view/freemarker/FreeMarkerViewResolver.class</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="31" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OltInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/OrdinaryInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/propertis/SmsCodeProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="39" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/IpRanInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/propertis/ValidateCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/web/ResponseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/support/CommonResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/AbstractImageCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/AbstractSmsCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ImageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateBeanConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateCodeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/DeviceRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateCodeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="750">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateCodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/IpRanInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="69" selection-start-line="8" selection-start-column="69" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/OltInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/OltInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/IpRanInfoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/validate/ValidateController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OltInfoController.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/CustomUserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+        <state relative-caret-position="125">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/OrdinaryInfoController.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/LoginManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/IpRanInfoController.java">
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="1000">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityCoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/security/SecurityReqController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/DeviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/RoleQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="25" column="109" selection-start-line="25" selection-start-column="109" selection-end-line="25" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/PermissionQueryModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1425#1426#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2006#2007#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/ManagerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1009,299 +1183,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/BbuDeviceInfoController.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/PermissionRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="125">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/DeviceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/EngineRoomServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/DeviceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/webapp/common.html" />
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/webapp/js/jquery.form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25600">
-          <caret line="1033" selection-start-line="1033" selection-end-line="1033" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/webapp/js/jquery-2.2.4.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="3" column="14409" selection-start-line="3" selection-start-column="14409" selection-end-line="3" selection-end-column="14409" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/webapp/myview/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2975">
-          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" column="50" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="64" column="12" selection-start-line="19" selection-start-column="3" selection-end-line="64" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1375">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/repository/BbuDeviceInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/ManagerQueryModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/repo/BaseRepository.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/repository/RoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="12" column="114" selection-start-line="12" selection-start-column="90" selection-end-line="12" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar!/org/springframework/data/domain/Sort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="55" column="50" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/manage/device/DeviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/impl/BbuDeviceInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/Device.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/ManagerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="125">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/EngineRoom.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/AreaService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/IpRanInfo.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OltInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/OrdinaryInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/service/BbuDeviceInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/device/entity/BbuDeviceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/entity/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/entity/MetaEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/entity/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar!/org/springframework/data/jpa/repository/support/SimpleJpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="397" selection-start-line="397" selection-end-line="397" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/utils/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_manage/src/test/java/com/itplayer/DeviceApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="175">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/service/impl/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="425">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/query/AreaQueryModel.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/AreaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="150">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
           <folding>
-            <element signature="e#2534#2535#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2613#2614#0" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#2687#2688#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-            <element signature="e#2841#2842#0" expanded="true" />
-            <element signature="e#2871#2872#0" expanded="true" />
-            <element signature="e#2915#2916#0" expanded="true" />
-            <element signature="e#2953#2954#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/PageableUtil.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="125">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/base/page/QueryModel.java">
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/PermissionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="325">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/src/main/java/com/itplayer/core/system/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.3.2/shiro-spring-1.3.2.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/realm/CustomRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5567">
+          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/mgt/SecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/mgt/WebSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="138" column="25" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="92" column="25" selection-start-line="77" selection-start-column="12" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="e#2096#2097#0" expanded="true" />
+            <element signature="e#2150#2151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/device_manage/src/main/java/com/itplayer/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="46" lean-forward="true" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

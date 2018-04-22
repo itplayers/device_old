@@ -58,7 +58,6 @@ public class DeviceApplicationTests {
         Area area = new Area();
         area.setAreaName("2");
         area.setCreateDate(new Date());
-        pageQueryModel.setArea(area);
         PageResult<Area> areaPageResult = areaService.queryPage(pageQueryModel);
         System.out.print(areaPageResult);
 

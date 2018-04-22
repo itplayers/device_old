@@ -1,11 +1,9 @@
 package com.itplayer.core.device.query;
 
 import com.itplayer.core.base.page.QueryModel;
-import com.itplayer.core.device.entity.BbuDeviceInfo;
 import com.itplayer.core.device.entity.IpRanInfo;
-import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.jpa.domain.Specification;
-import org.springframework.security.access.method.P;
+
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

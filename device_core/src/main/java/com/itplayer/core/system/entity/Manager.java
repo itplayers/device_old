@@ -2,15 +2,14 @@ package com.itplayer.core.system.entity;
 
 import com.itplayer.core.base.entity.MetaEntity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by caijun.yang on 2018/4/11
  */
 @Entity
-@Table(name = "tbl_area")
+@Table(name = "sys_manager")
 public class Manager extends MetaEntity {
 
     @Column
@@ -25,7 +24,14 @@ public class Manager extends MetaEntity {
     private String email;
     @Column
     private String addr;
+    @Column
+    private String salt;
 
+
+    @ManyToMany(fetch = FetchType.EAGER)//立即从数据库中进行加载数据;
+    @JoinTable(name = "sys_manager_role", joinColumns = {@JoinColumn(name = "managerId")},
+            inverseJoinColumns = {@JoinColumn(name = "roleId")})
+    private List<Role> roleList;// 一个用户具有多个角色
 
     public String getUsername() {
         return username;

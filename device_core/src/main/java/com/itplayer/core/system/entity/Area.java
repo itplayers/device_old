@@ -11,7 +11,7 @@ import java.io.Serializable;
  * Created by caijun.yang on 2018/4/11
  */
 @Entity
-@Table(name = "tbl_area")
+@Table(name = "sys_area")
 public class Area extends MetaEntity {
 
     @Column(name = "areacode")
